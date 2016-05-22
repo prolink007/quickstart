@@ -37,7 +37,9 @@
     "zone.js": "^0.6.12",
 
     "angular2-in-memory-web-api": "0.0.9",
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+
+    "the-library": "https://github.com/prolink007/the-library.git"
   },
   "devDependencies": {
     "concurrently": "^2.0.0",

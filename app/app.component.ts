@@ -1,9 +1,14 @@
 import {Component} from '@angular/core';
-import {SaySomething} from "the-library/the-library";
+import {SaySomething, ShowSomething} from "the-library/the-library";
 
 @Component({
     selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1>'
+    directives: [ShowSomething],
+    template: `
+        <div>
+            <show-something></show-something>
+        </div>
+    `
 })
 export class AppComponent {
     constructor() {
